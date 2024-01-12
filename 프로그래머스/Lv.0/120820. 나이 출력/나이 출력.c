@@ -5,6 +5,8 @@
 int solution(int age) 
 {
     int answer = 0;
-    answer = 2022 - (age-1);
+    int year = 2022;
+    int birth = year+1-age;
+    answer = birth;
     return answer;
 }
